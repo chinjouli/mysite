@@ -3,13 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-<<<<<<< HEAD
-title: Chin-Jou Li's webpage # Website name
+title: Hi! I'm Chin-Jou Li # Website name
 baseURL: 'https://www.csie.ntu.edu.tw/~cjli/' # Website URL
-=======
-title: CJ Li # Website name
-baseURL: 'https://example.com/' # Website URL
->>>>>>> refs/remotes/origin/main
 
 ############################
 ## LANGUAGE
