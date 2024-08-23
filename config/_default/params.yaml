@@ -12,7 +12,6 @@ appearance:
   font_size: L
 
 # SEO
-
 marketing:
   seo:
     site_type: Person
@@ -45,7 +44,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Chin-Jou Li. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false

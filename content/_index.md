@@ -16,45 +16,70 @@ sections:
     content:
       title: Experience
       # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
       #   Required fields are `title`, `company`, and `date_start`.
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
+        - title: Research assistant
+          company: Biomedical Acoustic Signal Processing Lab, Academia Sinica
+          company_url: 'https://bio-asplab.citi.sinica.edu.tw/'
+          company_logo: bioasp
+          location: Taipei, Taiwan
+          date_start: '2022-07-01'
+          date_end: '2024-02-29'
+          description: Research in audio-visual speech enhancement & speaker diarization.
+        - title: Research student
+          company: Intelligent Agents Lab, National Taiwan University
+          company_url: 'https://iagentntu.github.io/'
+          company_logo: iagent
+          location: Taipei, Taiwan
+          date_start: '2022-09-01'
           date_end: ''
-          description: |2-
-              Responsibilities include:
-
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
+          description: Data team member of TAIDE project -- trustworthy generative AI dialogue engine tailored for Taiwan.
+        - title: DNS group member / teaching assistant
+          company: NTU CSIE Network Administration and System Administration Team, National Taiwan University
           company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
+          company_logo: nasa
+          location: Taipei, Taiwan
+          date_start: '2022-09-01'
+          date_end: ''
+          description:  Monitored network stability for the CS department and guided new members.
+        - title: Teaching assistant
+          company: French (I) and French (II), National Taiwan University
+          company_url: ''
+          company_logo: ntu
+          location: Taipei, Taiwan
+          date_start: '2022-09-01'
+          date_end: ''
+          description:  Facilitated learning in a class of 40 students with TA from France.
+        - title: Research assistant
+          company: Department of Neurology Neurological Institute, Taipei Veterans General Hospital
+          company_url: 'https://wd.vghtpe.gov.tw/vghneuro/Index.action?mlangloc=en_US'
+          company_logo: tphos
+          location: Taipei, Taiwan
+          date_start: '2023-01-01'
+          date_end: '2023-12-31'
+          description: Research in clinial epilipsy video analysis.
+        - title: Intern
+          company: Open Culture Foundation
+          company_url: 'https://ocf.tw/en/'
+          company_logo: ocf
+          location: Taipei, Taiwan
+          date_start: '2023-09-01'
+          date_end: '2024-01-06'
+          description: Translated articles about open technology, digital rights, and internet freedom.
     design:
-      columns: '2'
+      columns: '1'
     
   - block: collection
     id: publication
     content:
       title: Publications
+      #  Discover relevant content by [filtering publications](./publication/).
       text: |-
         {{% callout note %}}
-        Discover relevant content by [filtering publications](./publication/).
+        Actively updating 💼
         {{% /callout %}}
       filters:
         folders:
@@ -62,7 +87,7 @@ sections:
         exclude_featured: true
     design:
       columns: '2'
-      view: citation
+      view: citation # list / compact / list / card / citation
   
   - block: portfolio
     id: projects
@@ -72,50 +97,22 @@ sections:
         folders:
           - project
       # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      default_button_index: 0
+      default_button_index: 1
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
-          tag: Deep Learning
-        - name: Other
-          tag: Demo
+        - name: CS
+          tag: Computer Science
+        - name: Multimodal
+          tag: Multimodal
+        - name: NLP
+          tag: Natural Language Processing
+        - name: Edu
+          tag: Education
     design:
-      columns: '2' # Valid values: '1' or '2'
-      view: showcase
-      flip_alt_rows: false # flip alternate rows or not
-    
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    design:
-      columns: '2'
+      columns: '2'  # Valid values: '1' or '2'
+      view: compact # list / compact / list / card
+      flip_alt_rows: false # for showcase, flip alternate rows or not
   
   #- block: skills
   #  content:
@@ -132,14 +129,14 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Feel free to contact me through email📨
+        Feel free to contact me through email 📨
       # Contact (add or remove contact options as necessary)
       email: cjli@csie.ntu.edu.tw
       contact_links:
         - icon: mail-bulk
           icon_pack: fas
-          name: b09902035@csie.ntu.edu.tw
-          link: 'mailto:b09902035@csie.ntu.edu.tw'
+          name: chinjou.li@gmail.com
+          link: 'mailto:chinjou.li@gmail.com'
       #phone: 888 888 88 88
       # Automatically link email and phone or display as text?
       autolink: true
@@ -150,7 +147,7 @@ sections:
           id:
         netlify:
           # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+          captcha: true
     design:
       columns: '2'
   
@@ -222,5 +219,35 @@ sections:
   #    columns: '2'
   #    view: card
   #
-
+  #- block: accomplishments
+    #content:
+    #  # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      #title: 'Accomplish&shy;ments'
+      #subtitle:
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      #date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      #items:
+      #  - certificate_url: https://www.coursera.org
+      #    date_end: ''
+      #    date_start: '2021-01-25'
+      #    description: ''
+      #    organization: Coursera
+      #    organization_url: https://www.coursera.org
+      #    title: Neural Networks and Deep Learning
+      #    url: ''
+      #  - certificate_url: https://www.edx.org
+      #    date_end: ''
+      #    date_start: '2021-01-01'
+      #    description: Formulated informed blockchain models, hypotheses, and use cases.
+      #    organization: edX
+      #    organization_url: https://www.edx.org
+      #    title: Blockchain Fundamentals
+      #    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+    #design:
+    #  columns: '2'
 ---

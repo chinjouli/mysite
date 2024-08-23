@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-# role: Professor of Artificial Intelligence
+role: Fourth-year student in NTU CSIE
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -25,17 +25,21 @@ organizations:
     url: https://www.csie.ntu.edu.tw/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Short bio here.
+bio: My fascination of languages led me to the field of computer science. Believe in human-centered language technologies' potential of fostering mutual understanding.
 
 # Interests to show in About widget
 interests:
   - Artificial Intelligence
-  - Computational Linguistics
+  - Natural Language Processing
+  - Machine Translation
   - Language Technologies for Education
 
 # Education to show in About widget
 education:
   courses:
+    - course: M.S. of Information Intelligent System @ LTI
+      institution: Carnegie Mellon University
+      year: (admitted to Fall 2024!)
     - course: B.S. in Computer Science and Information Engineering
       institution: National Taiwan University
       year: 2024
@@ -87,7 +91,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: '#contact'
   #- icon: twitter
   #  icon_pack: fab
   #  link: https://twitter.com/
@@ -114,5 +118,6 @@ social:
 highlight_name: true
 ---
 
-Self-intro at content/author/admin/_index.md
+I'm currently a fourth-year undergraduate at the Department of Computer Science and Information Engineering, National Taiwan University. My fascination with languages led me to the field of computer science, and my research interests revolve around how language technologies can assist humans. I'm also a member of the Translation & Interpreting Program!
+
 {style="text-align: justify;"}
