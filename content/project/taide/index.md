@@ -22,4 +22,4 @@ links:
   focal_point: Smart
 ---
 
-The Trustworthy AI Dialogue Engine, TAIDE, is a generative AI dialogue engine tailored made for Taiwan. Built upon LLaMa and primarily trained on Traditional Chinese datasets, TAIDE focuses on four key tasks: translation, summarization, letter writing, and article generation. Emphasizing transparency and reliability, TAIDE released a 7B model in June. Currently, an evaluation benchmark in Traditional Chinese is in development, and training data collection is ongoing.
+The Trustworthy AI Dialogue Engine, TAIDE, is a generative AI dialogue engine tailored made for Taiwan. Built upon LLaMa and primarily trained on Traditional Chinese datasets, TAIDE focuses on four key tasks: translation, summarization, letter writing, and article generation. Emphasizing transparency and reliability, TAIDE released a 7B model in June. As a member of data team, I participated in data collection and constructed evaluation benchmarks.
