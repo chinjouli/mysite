@@ -1,4 +1,4 @@
-name: Deploy Wowchemy website to GitHub Pages
+name: Deploy Wowchemy website to GitHub Pages; updated 240823
 
 env:
   WC_HUGO_VERSION: '0.119.0'
