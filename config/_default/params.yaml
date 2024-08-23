@@ -69,7 +69,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/Angelina354/personal-website'
+    url: 'https://github.com/chinjouli/personal-website'
     content_dir: content
     branch: main
   avatar:
