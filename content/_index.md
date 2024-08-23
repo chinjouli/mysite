@@ -35,7 +35,7 @@ sections:
           company_logo: iagent
           location: Taipei, Taiwan
           date_start: '2022-09-01'
-          date_end: ''
+          date_end: '2024-06-30'
           description: Data team member of TAIDE project -- trustworthy generative AI dialogue engine tailored for Taiwan.
         - title: DNS group member / teaching assistant
           company: NTU CSIE Network Administration and System Administration Team, National Taiwan University
@@ -43,7 +43,7 @@ sections:
           company_logo: nasa
           location: Taipei, Taiwan
           date_start: '2022-09-01'
-          date_end: ''
+          date_end: '2024-06-30'
           description:  Monitored network stability for the CS department and guided new members.
         - title: Teaching assistant
           company: French (I) and French (II), National Taiwan University
@@ -51,7 +51,7 @@ sections:
           company_logo: ntu
           location: Taipei, Taiwan
           date_start: '2022-09-01'
-          date_end: ''
+          date_end: '2024-06-30'
           description:  Facilitated learning in a class of 40 students with TA from France.
         - title: Research assistant
           company: Department of Neurology Neurological Institute, Taipei Veterans General Hospital
@@ -131,7 +131,7 @@ sections:
       text: |-
         Feel free to contact me through email 📨
       # Contact (add or remove contact options as necessary)
-      email: cjli@csie.ntu.edu.tw
+      email: chinjoul@andrew.cmu.edu
       contact_links:
         - icon: mail-bulk
           icon_pack: fas
