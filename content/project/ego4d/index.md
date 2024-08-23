@@ -1,29 +1,26 @@
 ---
-title: 1st COG-MHEAR AVSE Challenge
-summary: A DCCRN-based Audio-visual Speech Enhancement Approach. Ranked 3rd place.
+title: EGO4D  Audio-Visual Speaker Diarization Challenge 2023
+summary: Utilized self-supervised embeddings and people tracking algorithms to identify who and where the speakers are in egocentric videos.
 tags:
   - Computer Science
   - Multimodal
-date: '2022-09-15T00:00:00Z'
-
-# Optional external URL for project (replaces project detail page).
-external_link: ''
-
-image:
-  caption: Our speech enhancement model combining lip motion and wave form.
-  focal_point: Smart
+date: "2023-05-25T00:00:00Z"
 
 url_code: ''
-url_pdf: 'https://challenge.cogmhear.org/submissions/2022/BioASP_CITI.pdf'
+url_pdf: 'docs/Utilizing Self-Supervised Embeddings for Improving Audio-Visual Speaker.pdf'
 url_slides: ''
 url_video: ''
 
+image:
+  caption: Our model overview. We enhanced the blocks in blue.
+  focal_point: Smart
 ---
 
-This is a report for the 1st COG-MHEAR AVSE Challenge. Our model ranked the third in the competition.
+This is a report of the audio-visual speaker diarization (AVD) task at EGO4D Challenge 2023.
 
-In this challenge, the goal is to denoise the audio from a given video. Our proposed approach is based on deep complex convolution recurrent network (DCCRN), which has been shown to be effective for speech enhancement (SE) by predicting target complex spectrum via complex-valued operation. We incorporate additional visual information (e.g., lip motion) as an audio-visual speech enhancement (AVSE) approach for the 1st COG-MHEAR AVSE Challenge.
+The audio-visual diarization task focuses on tackling the problem of ’who spoke when’ in a given video. Inspired by the recent success of self-supervised learning (SSL) in speech processing and audio-visual applications, We wonder if self-superivsed embeddings (SSE) from the SSL models can benefit the AVD task as well. 
 
-Noisy speech is converted into complex spectrum and processed via a U-net like complex encoder-decoder architecture, where the latent representations are processed with a BLSTM network. The visual features and the speech features are fed into cross-attention modules composed of multi-head attention (MHA).
+Our approach was based on the baseline system. We replaced three building blocks with more advanced modules: face detection
+and tracking pipeline, AV-HuBERT based model for active speaker detection, and a pre-trained HuBERT model is used for generating audio embeddings.
 
-Our model outperforms the baseline model with a 40.7% and 23.8% improvement in perceptual evaluation of speech quality (PESQ) and short-time objective intelligibility (STOI), respectively.
+On the validation data, frame-level prediction's accuracy was increased from 79% to 84%, and a gain of 3% at diarization error rate is observed. 
