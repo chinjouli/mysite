@@ -11,18 +11,18 @@ last_name: Li
 
 # Status emoji
 status:
-  icon: 😼
+  icon: 🐬
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Fourth-year student in NTU CSIE
+role: 1st-year master student @ CMU LTI
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: National Taiwan University
-    url: https://www.csie.ntu.edu.tw/
+  - name: Carnegie Mellon University
+    url: https://www.lti.cs.cmu.edu/
 
 # Short bio (displayed in user profile at end of posts)
 bio: My fascination of languages led me to the field of computer science. Believe in human-centered language technologies' potential of fostering mutual understanding.
@@ -31,18 +31,17 @@ bio: My fascination of languages led me to the field of computer science. Believ
 interests:
   - Artificial Intelligence
   - Natural Language Processing
-  - Machine Translation
   - Language Technologies for Education
 
 # Education to show in About widget
 education:
   courses:
-    - course: M.S. of Information Intelligent System @ LTI
-      institution: Carnegie Mellon University
-      year: (admitted to Fall 2024!)
+    - course: M.S. of Information Intelligent System
+      institution: Language Technologies Institute, Carnegie Mellon University
+      year: Dec 2025
     - course: B.S. in Computer Science and Information Engineering
       institution: National Taiwan University
-      year: 2024
+      year: June 2024
 
 # Skills
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -103,21 +102,21 @@ social:
   #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
   - icon: github
     icon_pack: fab
-    link: https://github.com/Angelina354
-  #- icon: linkedin
-  #  icon_pack: fab
-  #  link: https://www.linkedin.com/
+    link: https://github.com/chinjouli
+  - icon: linkedin
+    icon_pack: fab
+    link: https://www.linkedin.com/in/chin-jou-li-237a81226
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: docs/CV_cjl.pdf
+    link: CV_cjl.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-I'm currently a fourth-year undergraduate at the Department of Computer Science and Information Engineering, National Taiwan University. My fascination with languages led me to the field of computer science, and my research interests revolve around how language technologies can assist humans. I'm also a member of the Translation & Interpreting Program!
+I'm currently a first-year master student (MIIS) at the Language Technologies Institute, Carnegie Mellon University. My fascination with languages led me to the field of computer science, and my research interests revolve around how language technologies can assist humans.
 
 {style="text-align: justify;"}
