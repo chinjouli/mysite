@@ -21,7 +21,7 @@ author_notes:
 - "Equal advising"
 - "Equal advising"
 date: "2024-02-10T00:00:00Z"
-doi: "https://doi.org/10.1016/j.mcpdig.2023.10.004"
+# doi: "https://doi.org/10.1016/j.mcpdig.2023.10.004"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-02-10T00:00:00Z"
@@ -35,7 +35,7 @@ publication_types: ["paper-conference"]
 publication: In *46th Annual International Conference of the IEEE Enginnering in Medicine and Biology Society*
 publication_short: In *EMBC 2024*
 
-abstract: In this study, we explore unlabeled seizure videos to pretrain a transformer-based model with contrastive loss, circumventing the need for additional annotation from medical professionals. We maximize the similarity between embeddings from the same patient and video while minimizing those from different patients and videos. Subsequently, a classification head was finetuned to distinguishing temporal lobe epilepsy (TLE) and extratemporal lobe epilepsy (exTLE), achieving a 5-fold accuracy of 0.93 and an F1 score of 0.88 on the video level (N = 57).
+abstract: Accurate classification of epileptic seizure types through seizure semiology analysis demands significant clinical expertise. While previous studies have employed various action recognition modules, the scarcity of labeled clinical videos has hindered the deployment of larger models. In this study, we explore unlabeled data to pretrain a transformer-based model with contrastive loss, taking advantage of the information that circumvents the need for additional annotation from medical professionals. We maximize the similarity between embeddings from the same patient and video while minimizing those from different patients and videos. Subsequently, a classification head was finetuned to distinguishing temporal lobe epilepsy (TLE) and extratemporal lobe epilepsy (exTLE). Our result achievied a 5-fold accuracy of 0.93 and an F1 score of 0.88 on the video level (N = 57). Our results outperformed other state-of-the-art seizure classification models, demonstrating the efficacy of our approach. This suggests potential applications in clinical practice, where unlabeled data could serve as a valuable aid in improving seizure classification accuracy and patient care.
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -60,7 +60,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'Model structure overview. A transformer-based model first undergoes contrastive pretraining on the unlabeled dataset, and then a classification head is added on top for classifying the labeled dataset.'
+  caption: 'Model structure overview.'
   focal_point: ""
   preview_only: false
 
@@ -78,9 +78,3 @@ projects: []
 #   Otherwise, set `slides: ""`.
 slides: ""
 ---
-
-Accurate classification of epileptic seizure types through seizure semiology analysis demands significant clinical expertise. While previous studies have employed various action recognition modules, the scarcity of labeled clinical videos has hindered the deployment of larger models. 
-
-In this study, we explore unlabeled data to pretrain a transformer-based model with contrastive loss, taking advantage of the information that circumvents the need for additional annotation from medical professionals. We maximize the similarity between embeddings from the same patient and video while minimizing those from different patients and videos. Subsequently, a classification head was finetuned to distinguishing temporal lobe epilepsy (TLE) and extratemporal lobe epilepsy (exTLE).
-
-Our result achievied a 5-fold accuracy of 0.93 and an F1 score of 0.88 on the video level (N = 57). Our results outperformed other state-of-the-art seizure classification models, demonstrating the efficacy of our approach. This suggests potential applications in clinical practice, where unlabeled data could serve as a valuable aid in improving seizure classification accuracy and patient care.
