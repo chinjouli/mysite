@@ -105,7 +105,7 @@ social:
     link: https://github.com/chinjouli
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/in/chin-jou-li-237a81226
+    link: https://www.linkedin.com/in/chin-jou-li
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
