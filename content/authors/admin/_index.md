@@ -25,12 +25,12 @@ organizations:
     url: https://www.lti.cs.cmu.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My fascination of languages led me to the field of computer science. Believe in human-centered language technologies' potential of fostering mutual understanding.
+bio: My love for languages brought me to computer science. I want to help people communicate and understand each other better using language technologies!
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
   - Natural Language Processing
+  - Multimodal: Text, Speech, Video
   - Language Technologies for Education
 
 # Education to show in About widget
@@ -117,6 +117,6 @@ social:
 highlight_name: true
 ---
 
-I'm currently a first-year master student (MIIS) at the Language Technologies Institute, Carnegie Mellon University. My fascination with languages led me to the field of computer science, and my research interests revolve around how language technologies can assist humans.
+I'm currently a first-year master student (MIIS) at the Language Technologies Institute, Carnegie Mellon University. My fascination with languages led me to the field of computer science, and my research interests revolve around how language technologies can facilitate human communication and understanding.
 
 {style="text-align: justify;"}
