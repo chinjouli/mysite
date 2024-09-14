@@ -60,7 +60,7 @@ sections:
           location: Taipei, Taiwan
           date_start: '2023-01-01'
           date_end: '2023-12-31'
-          description: Research in clinial epilipsy video analysis.
+          description: Research in clinical epilepsy video analysis.
         - title: Intern
           company: Open Culture Foundation
           company_url: 'https://ocf.tw/en/'
