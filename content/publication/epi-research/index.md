@@ -53,7 +53,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: 'A comparsion of face transformation methods: face-swapping and cartoonization'
+  caption: 'A comparsion of different face-swapping models' performance.'
   focal_point: ""
   preview_only: false
 
