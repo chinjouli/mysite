@@ -29,7 +29,7 @@ sections:
           date_start: '2022-07-01'
           date_end: '2024-02-29'
           description: Research in audio-visual speech enhancement & speaker diarization.
-        - title: Research student
+        - title: Undergraduate researcher
           company: Intelligent Agents Lab, National Taiwan University
           company_url: 'https://iagentntu.github.io/'
           company_logo: iagent
@@ -37,7 +37,7 @@ sections:
           date_start: '2022-09-01'
           date_end: '2024-06-30'
           description: Data team member of TAIDE project -- trustworthy generative AI dialogue engine tailored for Taiwan.
-        - title: DNS group member / teaching assistant
+        - title: Teaching assistant / DNS group member
           company: NTU CSIE Network Administration and System Administration Team, National Taiwan University
           company_url: ''
           company_logo: nasa
