@@ -62,7 +62,7 @@ image:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-content/project/MCP-digital/index.md
+projects: content/project/MCP-digital/index.md
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
