@@ -36,7 +36,7 @@ sections:
           location: Taipei, Taiwan
           date_start: '2022-09-01'
           date_end: '2024-06-30'
-          description: Trustworthy AI Dialogue Engine (TAIDE) project's data team member, handled data processing and model evaluation under supervision of Prof. Jane Yung-Jen Hsu.
+          description: Handled data processing and model evaluation for Traditional Chinese LLM development under supervision of Prof. Jane Yung-Jen Hsu.
         - title: Teaching assistant / DNS group member
           company: NTU CSIE Network Administration and System Administration Team, National Taiwan University
           company_url: ''
