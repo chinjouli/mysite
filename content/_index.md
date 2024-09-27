@@ -28,7 +28,7 @@ sections:
           location: Taipei, Taiwan
           date_start: '2022-07-01'
           date_end: '2024-02-29'
-          description: Research in audio-visual speech enhancement & speaker diarization.
+          description: Research in audio-visual speech enhancement and speaker diarization, supervised by Dr. Yu Tsao and Dr. Jen-Cheng Hou.
         - title: Undergraduate researcher
           company: Intelligent Agents Lab, National Taiwan University
           company_url: 'https://iagentntu.github.io/'
@@ -36,7 +36,7 @@ sections:
           location: Taipei, Taiwan
           date_start: '2022-09-01'
           date_end: '2024-06-30'
-          description: Data team member of TAIDE project -- trustworthy generative AI dialogue engine tailored for Taiwan.
+          description: Trustworthy AI Dialogue Engine (TAIDE) project's data team member, handled data processing and model evaluation under supervision of Prof. Jane Yung-Jen Hsu.
         - title: Teaching assistant / DNS group member
           company: NTU CSIE Network Administration and System Administration Team, National Taiwan University
           company_url: ''
@@ -60,7 +60,7 @@ sections:
           location: Taipei, Taiwan
           date_start: '2023-01-01'
           date_end: '2023-12-31'
-          description: Research in clinical epilepsy video analysis.
+          description: Applied computer vision techniques to clinical seizure recording, including action recognition and privacy protection.
         - title: Intern
           company: Open Culture Foundation
           company_url: 'https://ocf.tw/en/'
