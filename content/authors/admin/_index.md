@@ -31,7 +31,7 @@ bio: My love for languages brought me to computer science. I want to help people
 interests:
   - Natural Language Processing
   - Multimodal (Speech & Video)
-  - Language Technologies for Education
+  - Translation & Education
 
 # Education to show in About widget
 education:
