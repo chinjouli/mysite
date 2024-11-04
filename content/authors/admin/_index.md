@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: 1st-year master student @ CMU LTI
+role: 1st-year Master's student @ CMU LTI
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -117,6 +117,6 @@ social:
 highlight_name: true
 ---
 
-I'm currently a first-year master student (MIIS) at the Language Technologies Institute, Carnegie Mellon University. My fascination with languages led me to the field of computer science, and my research interests revolve around how language technologies can facilitate human communication and understanding.
+I'm a first-year Master's student (MIIS) at the Language Technologies Institute, Carnegie Mellon University. My fascination with languages led me to the field of computer science, and my research interests revolve around how language technologies can facilitate human communication and understanding.
 
 {style="text-align: justify;"}
