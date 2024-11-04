@@ -21,7 +21,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Graduate researcher
+        - title: Graduate Researcher
           company: ChangeLing Lab, Carnegie Mellon University
           company_url: 'https://changelinglab.github.io/'
           company_logo: changeling
@@ -29,14 +29,15 @@ sections:
           date_start: '2024-09-01'
           date_end: ''
           description: Researching speech recognition with a phonetic/phonological focus, supervised by Prof. David R. Mortensen.
-        - title: Undergraduate researcher
+        - title: Undergraduate Researcher
           company: Intelligent Agents Lab, National Taiwan University
           company_url: 'https://iagentntu.github.io/'
           company_logo: iagent
           location: Taipei, Taiwan
           date_start: '2022-09-01'
           date_end: '2024-06-30'
-        - title: Research assistant
+          description: Handled data processing and model evaluation for Traditional Chinese LLM development under the supervision of Prof. Jane Yung-Jen Hsu.
+        - title: Research Assistant
           company: Biomedical Acoustic Signal Processing Lab, Academia Sinica
           company_url: 'https://bio-asplab.citi.sinica.edu.tw/'
           company_logo: bioasp
@@ -44,8 +45,7 @@ sections:
           date_start: '2022-07-01'
           date_end: '2024-02-29'
           description: Research in audio-visual speech enhancement and speaker diarization, supervised by Dr. Yu Tsao and Dr. Jen-Cheng Hou.
-          description: Handled data processing and model evaluation for Traditional Chinese LLM development under supervision of Prof. Jane Yung-Jen Hsu.
-        - title: Research assistant
+        - title: Research Assistant
           company: Department of Neurology Neurological Institute, Taipei Veterans General Hospital
           company_url: 'https://wd.vghtpe.gov.tw/vghneuro/Index.action?mlangloc=en_US'
           company_logo: tphos
@@ -53,7 +53,7 @@ sections:
           date_start: '2023-01-01'
           date_end: '2023-12-31'
           description: Applied computer vision techniques to clinical seizure recording, including action recognition and privacy protection.
-        - title: Teaching assistant / DNS group member
+        - title: Teaching Assistant / DNS group member
           company: NTU CSIE Network Administration and System Administration Team, National Taiwan University
           company_url: ''
           company_logo: nasa
@@ -61,7 +61,7 @@ sections:
           date_start: '2022-09-01'
           date_end: '2024-06-30'
           description:  Monitored network stability for the CS department and guided new members.
-        - title: Teaching assistant
+        - title: Teaching Assistant
           company: French (I) and French (II), National Taiwan University
           company_url: ''
           company_logo: ntu
