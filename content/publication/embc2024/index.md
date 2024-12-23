@@ -21,7 +21,7 @@ author_notes:
 - "Equal advising"
 - "Equal advising"
 date: "2024-02-10T00:00:00Z"
-# doi: "https://doi.org/10.1016/j.mcpdig.2023.10.004"
+doi: "https://doi.org/10.1109/EMBC53108.2024.10781883"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-02-10T00:00:00Z"
