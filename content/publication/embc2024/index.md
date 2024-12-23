@@ -48,7 +48,7 @@ featured: false
 # links:
 # - name: ""
 #   url: ""
-url_pdf: docs/EMBC_2024.pdf
+url_pdf: https://ieeexplore.ieee.org/document/10781883
 url_code: ''
 url_dataset: ''
 url_poster: ''
